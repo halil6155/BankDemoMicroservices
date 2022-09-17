@@ -1,0 +1,12 @@
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\bin\Debug\net6.0\BanksDemo.Shared.deps.json
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\bin\Debug\net6.0\BanksDemo.Shared.dll
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\bin\Debug\net6.0\BanksDemo.Shared.pdb
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.csproj.AssemblyReference.cache
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.AssemblyInfoInputs.cache
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.AssemblyInfo.cs
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.csproj.CoreCompileInputs.cache
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.dll
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\refint\BanksDemo.Shared.dll
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\BanksDemo.Shared.pdb
+D:\Proejct\BanksDemo\BanksDemo\BanksDemo.Shared\obj\Debug\net6.0\ref\BanksDemo.Shared.dll

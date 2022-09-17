@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XNBfaBLlUS29k1KLuHQD8Ksp7JxcRAf2g5Vn0sih4HA=",
+  "Source": "BanksDemo.Gateway",
+  "BasePath": "_content/BanksDemo.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

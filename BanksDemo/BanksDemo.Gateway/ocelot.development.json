@@ -1,0 +1,46 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/wallets/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7063
+        }
+      ],
+      "UpstreamPathTemplate": "/services/wallet/{everything}",
+      "UpstreamHttpMethod": [ "Get"],
+      "UpstreamSchema": "https"
+    },
+    {
+      "DownstreamPathTemplate": "/api/users/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7158
+        }
+      ],
+      "UpstreamPathTemplate": "/services/user/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "UpstreamSchema": "https"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Transactions/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7131
+        }
+      ],
+      "UpstreamPathTemplate": "/services/transaction/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "UpstreamSchema": "https"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7214"
+  }
+}

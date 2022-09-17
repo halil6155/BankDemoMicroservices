@@ -1,0 +1,29 @@
+services:
+  banksdemo.gateway:
+    build:
+      context: D:\Proejct\BanksDemo
+      dockerfile: BanksDemo/BanksDemo.Gateway/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: banksdemogateway
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\hik_2\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+  banksdemo.transaction:
+    build:
+      context: D:\Proejct\BanksDemo
+      dockerfile: BanksDemo/BanksDemo.Transaction/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: banksdemotransaction
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\hik_2\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\hik_2\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
